@@ -1,6 +1,5 @@
 import asyncio
 import random
-import os
 import discord
 
 client = discord.Client()
@@ -47,4 +46,4 @@ async def on_message(message):
           await message.channel.send(f"啊哈哈沒事")
 
 
-client.run(os.getenv("TOKEN"))
+client.run('OTc5MDQ5ODg0NjcxOTQ2ODEy.Gfd4HC.5a8jZZ3NMGd_Gtc82GpwcPvusRW0L-OCGlGHr0')
